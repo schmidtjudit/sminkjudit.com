@@ -1,0 +1,48 @@
+.card {
+  position: relative;
+  margin: 8px;
+  width: 275px;
+  max-height: 300px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: 200ms ease-in-out;
+  -o-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  -webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+          box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+          box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card h2 {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 18px;
+  background: rgba(0,0,0,0.8);
+  -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+          box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.card .date {
+  position: absolute;
+  top: 0px;
+  color: #fff;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 3px;
+  text-shadow: 0 0 3px rgba(0,0,0,0.9);
+}

@@ -1,0 +1,16 @@
+nav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  background-color: #d4c5e2;
+  color: #9e97b0;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+}
