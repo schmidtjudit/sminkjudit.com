@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/public',
   siteMetadata: {
     title: `Judit Schmidt - Makeup Artist`,
     description: `Portfolio`,
