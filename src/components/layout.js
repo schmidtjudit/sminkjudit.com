@@ -12,10 +12,14 @@ const Layout = ({ children }) => {
       <Navbar />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 0 1.45rem`,
-          paddingTop: 0,
+          marginTop: "0",
+          width: "auto",
+          marginLeft: "235px",
+          maxWidth: "75%",
+          float: "left",
+          padding: "30px",
+          position: "relative",
+          display: "block",
         }}
       >
         <main className="container">{children}</main>

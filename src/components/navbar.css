@@ -1,16 +1,54 @@
-nav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  background-color: #d4c5e2;
-  color: #9e97b0;
+@media (min-width:768px) {
+  aside.nav {
+    height: 100vh;
+    min-height: 500px;
+    width: 235px;
+    float: left;
+  }
 }
 
-nav a {
+aside.nav {
+  padding: 20px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  overflow: hidden;
+  transition: .3s all ease;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+}
+
+aside.nav nav {
+  width: 100%;
+  line-height: 1.5;
+  word-wrap: break-word;
+  font-weight: 300;
+}
+
+aside.nav nav a {
   text-decoration: none;
   display: block;
+  margin: 7px auto;
+  transition: all .3s;
+  color: #000;
+}
+
+aside.nav nav a.active {
+  background-color: #fff4f4;
+}
+
+aside.nav div {
+  padding: 30px 5px;
+}
+
+aside.nav div h1 {
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-bottom: 0.1em;
+}
+
+aside.nav div h2 {
+  font-weight: 300;
+  font-size: 0.8em;
 }

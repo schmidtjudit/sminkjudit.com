@@ -12,17 +12,23 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
-        plugins: ['gatsby-remark-copy-relative-linked-files']
+        plugins: ["gatsby-remark-copy-relative-linked-files"],
       },
     },
     {
       resolve: `gatsby-remark-images`,
-      options: { maxWidth: 1080 },
+      options: {
+        maxWidth: 960,
+        quality: 100,
+        withWebp: true,
+        wrapperStyle: fluidResult =>
+          `flex:${_.round(fluidResult.aspectRatio, 2)};`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,

@@ -5,11 +5,20 @@ import "./navbar.css"
 
 const Navbar = () => {
   return (
-    <nav>
-      <div>Judit Schmidt</div>
-      <Link to="/about">About</Link>
-      <Link to="/">Posts</Link>
-    </nav>
+    <aside className="nav">
+      <div>
+        <h1>Judit Schmidt</h1>
+        <h2>Sikkes - Sminkes - Sikeres</h2>
+      </div>
+      <nav>
+        <Link to="/" activeClassName="active">
+          Blog
+        </Link>
+        <Link to="/kapcsolat" activeClassName="active">
+          Kapcsolat
+        </Link>
+      </nav>
+    </aside>
   )
 }
 
