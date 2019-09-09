@@ -8,8 +8,10 @@ const Navbar = () => {
   return (
     <aside className="nav">
       <div>
-        <h1>Judit Schmidt</h1>
-        <h2>Sikkes - Sminkes - Sikeres</h2>
+        <Link to="/">
+          <h1>Judit Schmidt</h1>
+          <h2>Sikkes - Sminkes - Sikeres</h2>
+        </Link>
         <nav className="social">
           <a href="https://instagram.com/judit.schmidt">
             <SocialInstagram size="18" title="@judit.schmidt" />

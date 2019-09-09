@@ -8,11 +8,16 @@ aside.nav {
   line-height: 1.5;
 }
 
+aside.nav a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  vertical-align: middle;
+  transition: all .3s;
+}
+
 aside.nav .social a {
   color: rgba(0, 0, 0, 0.5);
-  text-decoration: none;
   font-size: 0.75rem;
-  vertical-align: middle;
 }
 
 aside.nav nav {
@@ -23,11 +28,8 @@ aside.nav nav {
 }
 
 aside.nav nav a {
-  text-decoration: none;
   display: block;
   margin: 7px auto;
-  transition: all .3s;
-  color: #000;
 }
 
 aside.nav nav a.active {
