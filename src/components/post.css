@@ -78,3 +78,9 @@
 .article section a {
   color: #000;
 }
+
+@media (max-width:768px) {
+  .article {
+    padding: 10px 10px 6px;
+  }
+}

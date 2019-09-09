@@ -634,10 +634,13 @@ pre tt:after {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  padding: 5px;
+  float: left;
 }
 
 @media (min-width:768px) {
   .container {
+    padding: 30px;
     margin-top: 0;
     width: auto;
     margin-left: 235px;
