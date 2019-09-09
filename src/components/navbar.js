@@ -33,7 +33,7 @@ const Navbar = () => {
         </Link>
         <nav className="social">
           <a href="https://instagram.com/judit.schmidt">
-            <SocialInstagram size="20" title="@judit.schmidt" />
+            <InstagramIcon size="20" title="@judit.schmidt" />
             /judit.schmidt
           </a>
         </nav>
@@ -62,17 +62,23 @@ const Navbar = () => {
   )
 }
 
+export const InstagramIcon = styled(SocialInstagram)`
+  vertical-align: bottom;
+`
 export const RedTag = styled(Tag)`
   color: lightsalmon;
   margin-right: 3px;
+  vertical-align: text-bottom;
 `
 export const BlueTag = styled(Tag)`
   color: lightblue;
   margin-right: 3px;
+  vertical-align: text-bottom;
 `
 export const PurpleTag = styled(Tag)`
   color: plum;
   margin-right: 3px;
+  vertical-align: text-bottom;
 `
 
 export default Navbar
