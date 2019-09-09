@@ -3,7 +3,7 @@ path: "/nelly-createva-lencsejen-keresztul"
 date: "2019-07-12"
 title: "Nelly CreatEva lencséjén keresztül"
 thumbnail: "images/2019-07-12/thumbnail_nelly.jpg"
-cover: "images/2019-07-12/thumbnail.jpg"
+cover: "images/2019-07-12/thumbnail_nelly.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---
