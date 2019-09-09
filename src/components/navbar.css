@@ -1,10 +1,11 @@
-@media (min-width:768px) {
-  aside.nav {
-    height: 100vh;
-    min-height: 500px;
-    width: 235px;
-    float: left;
-  }
+aside.nav {
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+  transition: .3s all ease;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
 }
 
 aside.nav .social a {
@@ -12,18 +13,6 @@ aside.nav .social a {
   text-decoration: none;
   font-size: 0.75rem;
   vertical-align: middle;
-}
-
-aside.nav {
-  padding: 20px;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  overflow: hidden;
-  transition: .3s all ease;
-  background-color: #fff;
-  color: #000;
-  line-height: 1.5;
 }
 
 aside.nav nav {
@@ -54,3 +43,16 @@ aside.nav div h2 {
   font-size: 0.8em;
   margin-bottom: 0;
 }
+
+@media (min-width:768px) {
+  aside.nav {
+    height: 100vh;
+    min-height: 500px;
+    width: 235px;
+    float: left;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+  }
+}
+

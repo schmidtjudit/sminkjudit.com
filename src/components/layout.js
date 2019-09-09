@@ -9,20 +9,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div
-        style={{
-          marginTop: "0",
-          width: "auto",
-          marginLeft: "235px",
-          maxWidth: "75%",
-          float: "left",
-          padding: "30px",
-          position: "relative",
-          display: "block",
-        }}
-      >
-        <main className="container">{children}</main>
-      </div>
+      <main className="container">{children}</main>
     </>
   )
 }

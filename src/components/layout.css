@@ -635,3 +635,12 @@ pre tt:after {
   -ms-flex-direction: row;
   flex-direction: row;
 }
+
+@media (min-width:768px) {
+  .container {
+    margin-top: 0;
+    width: auto;
+    margin-left: 235px;
+    max-width: 75%;
+  }
+}
