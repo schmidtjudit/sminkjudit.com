@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
+import { Calendar } from "styled-icons/typicons"
 
 const Template = ({ data }) => {
   const {
@@ -13,7 +14,10 @@ const Template = ({ data }) => {
       <article className="article">
         <header>
           <h1>{title}</h1>
-          <span className="date">{date}</span>
+          <span className="date">
+            <Calendar size="18" title={date} />
+            {date}
+          </span>
           {!!excerpt ? <p className="excerpt">{excerpt}</p> : null}
           {!image ? <Img fluid={image.childImageSharp.fluid} /> : null}
         </header>
