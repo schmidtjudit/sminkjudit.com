@@ -3,6 +3,7 @@ path: "/elbuvolo-eszer-atalakulasa"
 date: "2019-02-05"
 title: "Elbűvölő Eszer átalakulása "
 thumbnail: "images/2019-02-05/1.jpg"
+cover: "images/2019-02-05/1.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---

@@ -3,6 +3,7 @@ path: "/kozeppontban-eszti-es-viki"
 date: "2019-03-08"
 title: "Közeppontban: Eszti és Viki"
 thumbnail: "images/2019-03-08/1.jpg"
+cover: "images/2019-03-08/1.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---

@@ -3,6 +3,7 @@ path: "/egy-ujabb-nap-az-irodaban-ezuttal-fruzsival"
 date: "2019-05-24"
 title: "Egy újabb nap “az irodában”, ezúttal Fruzsival"
 thumbnail: "images/2019-05-24/1.jpg"
+cover: "images/2019-05-24/1.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---

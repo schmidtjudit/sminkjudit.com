@@ -3,6 +3,7 @@ path: "/nikoletta-noretus-fotozasa"
 date: "2019-06-14"
 title: "Nikoletta #noretus fotózása"
 thumbnail: "images/2019-06-14/1.jpg"
+cover: "images/2019-06-14/1.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---
