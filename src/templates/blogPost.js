@@ -6,17 +6,22 @@ import Layout from "../components/layout"
 const Template = ({ data }) => {
   const {
     html,
-    frontmatter: { title, date },
+    frontmatter: { title, date, excerpt, image },
   } = data.markdownRemark
   return (
     <Layout>
-      <main>
-        <h1>{title}</h1>
-        <div>{date}</div>
+      <article className="article">
+        <header>
+          <h1>{title}</h1>
+          <span className="date">{date}</span>
+          {!!excerpt ? <p className="excerpt">{excerpt}</p> : null}
+          {!image ? <Img fluid={image.childImageSharp.fluid} /> : null}
+        </header>
         <section>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </section>
-      </main>
+        <footer></footer>
+      </article>
     </Layout>
   )
 }
@@ -27,7 +32,16 @@ export const query = graphql`
       html
       frontmatter {
         title
+        excerpt
         date(formatString: "DD MMMM, YYYY", locale: "hu")
+        tags
+        image {
+          childImageSharp {
+            fluid(maxWidth: 1080) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
