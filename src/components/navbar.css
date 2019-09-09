@@ -22,7 +22,7 @@ aside.nav .avatar {
 aside.nav a {
   color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
-  vertical-align: middle;
+  vertical-align: text-bottom;
   transition: all .3s;
 }
 
