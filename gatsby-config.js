@@ -24,17 +24,15 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: ["gatsby-remark-copy-relative-linked-files"],
-      },
-    },
-    {
-      resolve: `gatsby-remark-images`,
-      options: {
-        maxWidth: 960,
-        quality: 100,
-        withWebp: true,
-        wrapperStyle: fluidResult =>
-          `flex:${_.round(fluidResult.aspectRatio, 2)};`,
+        plugins: ["gatsby-remark-copy-relative-linked-files",
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 960,
+            quality: 100,
+            withWebp: true,
+          },
+        }],
       },
     },
     {
