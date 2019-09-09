@@ -7,7 +7,7 @@ import { Calendar } from "styled-icons/typicons"
 const Template = ({ data }) => {
   const {
     html,
-    frontmatter: { title, date, excerpt, image },
+    frontmatter: { title, date, excerpt, cover },
   } = data.markdownRemark
   return (
     <Layout>
@@ -19,7 +19,7 @@ const Template = ({ data }) => {
             {date}
           </span>
           {!!excerpt ? <p className="excerpt">{excerpt}</p> : null}
-          {!image ? <Img fluid={image.childImageSharp.fluid} /> : null}
+          {!cover ? <Img fluid={cover.childImageSharp.fluid} /> : null}
         </header>
         <section>
           <div dangerouslySetInnerHTML={{ __html: html }} />
@@ -39,7 +39,7 @@ export const query = graphql`
         excerpt
         date(formatString: "DD MMMM, YYYY", locale: "hu")
         tags
-        image {
+        cover {
           childImageSharp {
             fluid(maxWidth: 1080) {
               ...GatsbyImageSharpFluid

@@ -8,7 +8,7 @@ const Post = ({ frontmatter }) => {
   return (
     <div className="card">
       <Link to={frontmatter.path}>
-        <Img fluid={frontmatter.image.childImageSharp.fluid} />
+        <Img fluid={frontmatter.thumbnail.childImageSharp.fluid} />
         <div className="date">{frontmatter.date}</div>
         <h2>{frontmatter.title}</h2>
       </Link>

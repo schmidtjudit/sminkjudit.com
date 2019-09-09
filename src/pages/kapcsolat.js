@@ -2,10 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import "../components/form.css"
+import SEO from "../components/seo"
 
 const About = () => {
   return (
     <Layout>
+      <SEO title="Kapcsolat" />
       <div className="article">
         <header>
           <h1>Kapcsolat</h1>
