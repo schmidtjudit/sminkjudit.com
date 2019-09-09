@@ -3,7 +3,8 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import "./navbar.css"
-import { SocialInstagram } from "styled-icons/typicons"
+import styled from "styled-components"
+import { Tag, SocialInstagram } from "styled-icons/typicons"
 
 const Navbar = () => {
   const avatar = useStaticQuery(graphql`
@@ -32,7 +33,7 @@ const Navbar = () => {
         </Link>
         <nav className="social">
           <a href="https://instagram.com/judit.schmidt">
-            <SocialInstagram size="18" title="@judit.schmidt" />
+            <SocialInstagram size="20" title="@judit.schmidt" />
             /judit.schmidt
           </a>
         </nav>
@@ -41,6 +42,18 @@ const Navbar = () => {
         <Link to="/" activeClassName="active">
           Blog
         </Link>
+        <Link to="/sikkes" activeClassName="active" className="sublink">
+          <RedTag size="16" />
+          Sikkes
+        </Link>
+        <Link to="/sminkes" activeClassName="active" className="sublink">
+          <BlueTag size="16" />
+          Sminkes
+        </Link>
+        <Link to="/sikeres" activeClassName="active" className="sublink">
+          <PurpleTag size="16" />
+          Sikeres
+        </Link>
         <Link to="/kapcsolat" activeClassName="active">
           Kapcsolat
         </Link>
@@ -48,5 +61,18 @@ const Navbar = () => {
     </aside>
   )
 }
+
+export const RedTag = styled(Tag)`
+  color: lightsalmon;
+  margin-right: 3px;
+`
+export const BlueTag = styled(Tag)`
+  color: lightblue;
+  margin-right: 3px;
+`
+export const PurpleTag = styled(Tag)`
+  color: plum;
+  margin-right: 3px;
+`
 
 export default Navbar

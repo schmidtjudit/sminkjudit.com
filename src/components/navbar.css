@@ -26,9 +26,15 @@ aside.nav a {
   transition: all .3s;
 }
 
+aside.nav a.sublink {
+  font-size: 0.76rem;
+  line-height: 0.85;
+  padding-left: 0.5rem;
+}
+
 aside.nav .social a {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 0.75rem;
+  font-size: 0.76rem;
 }
 
 aside.nav nav {
