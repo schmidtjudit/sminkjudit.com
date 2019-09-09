@@ -27,7 +27,7 @@ const Navbar = () => {
             fluid={avatar.file.childImageSharp.fluid}
             alt="Avatar"
           />
-          <h1>Judit Schmidt</h1>
+          <h1>Schmidt Judit</h1>
           <h2>Sikkes - Sminkes - Sikeres</h2>
         </Link>
         <nav className="social">

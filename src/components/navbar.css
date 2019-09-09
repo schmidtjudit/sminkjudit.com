@@ -51,6 +51,10 @@ aside.nav div {
   padding: 30px 5px;
 }
 
+aside.nav div h1 {
+  font-family: Satisfy, Helvetica Neue, sans-serif;
+}
+
 aside.nav div h2 {
   font-weight: 300;
   font-size: 0.8em;
