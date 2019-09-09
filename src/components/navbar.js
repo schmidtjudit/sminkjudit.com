@@ -18,8 +18,6 @@ const Navbar = () => {
     }
   `)
 
-  console.log(avatar)
-
   return (
     <aside className="nav">
       <div>
