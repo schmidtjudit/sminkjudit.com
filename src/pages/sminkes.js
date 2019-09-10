@@ -11,18 +11,22 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      {edges.map(edge => {
-        const { frontmatter } = edge.node
-        return <Post key={frontmatter.path} frontmatter={frontmatter} />
-      })}
+      <div className="flex">
+        {edges.map(edge => {
+          const { frontmatter } = edge.node
+          return <Post key={frontmatter.path} frontmatter={frontmatter} />
+        })}
+      </div>
     </Layout>
   )
 }
 
 export const query = graphql`
   query SminkesListQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC },
-    filter: {frontmatter: {tags: {in: "sminkes"}}}) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: "sminkes" } } }
+    ) {
       edges {
         node {
           frontmatter {

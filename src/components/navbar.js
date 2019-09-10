@@ -54,6 +54,9 @@ const Navbar = () => {
           <PurpleTag size="16" />
           Sikeres
         </Link>
+        <Link to="/portfolio" activeClassName="active">
+          Portfólió
+        </Link>
         <Link to="/kapcsolat" activeClassName="active">
           Kapcsolat
         </Link>

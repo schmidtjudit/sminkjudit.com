@@ -11,10 +11,12 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      {edges.map(edge => {
-        const { frontmatter } = edge.node
-        return <Post key={frontmatter.path} frontmatter={frontmatter} />
-      })}
+      <div className="container flex">
+        {edges.map(edge => {
+          const { frontmatter } = edge.node
+          return <Post key={frontmatter.path} frontmatter={frontmatter} />
+        })}
+      </div>
     </Layout>
   )
 }

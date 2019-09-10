@@ -48,12 +48,10 @@
 }
 
 .article {
-  max-width: 97%;
   width: auto;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
   border: 1px solid rgb(238, 238, 238);
   background-color: #fff;
-  padding: 50px 50px 30px;
   font-size: 16px;
 }
 
@@ -79,8 +77,9 @@
   color: #000;
 }
 
-@media (max-width:768px) {
+@media (min-width:768px) {
   .article {
-    padding: 10px 10px 6px;
+    max-width: 950px;
+    padding: 50px 50px 30px 50px;
   }
 }
