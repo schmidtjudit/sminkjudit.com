@@ -35,6 +35,7 @@ module.exports = {
       options: {
         plugins: [
           {
+            "gatsby-remark-copy-relative-linked-files",
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 960,
@@ -42,7 +43,6 @@ module.exports = {
               withWebp: true,
             },
           },
-          "gatsby-remark-copy-relative-linked-files",
         ],
       },
     },
