@@ -22,19 +22,28 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        plugins: ["gatsby-remark-copy-relative-linked-files"],
+        name: `portfolioImages`,
+        path: `${__dirname}/src/images/portfolio`,
       },
     },
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
-      resolve: `gatsby-remark-images`,
+      resolve: "gatsby-transformer-remark",
       options: {
-        maxWidth: 960,
-        quality: 100,
-        withWebp: true,
-        wrapperStyle: fluidResult =>
-          `flex:${_.round(fluidResult.aspectRatio, 2)};`,
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 960,
+              quality: 100,
+              withWebp: true,
+            },
+          },
+          "gatsby-remark-copy-relative-linked-files",
+        ],
       },
     },
     {
