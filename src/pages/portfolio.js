@@ -11,12 +11,6 @@ const PortfolioPage = () => (
         <h1>Portfólió</h1>
       </header>
       <section>
-        <p>
-          Itaque nihil placeat quibusdam voluptas. Praesentium suscipit nostrum
-          sit et quia eligendi. Dolorem doloremque rerum velit est omnis quasi
-          deleniti voluptates. Nihil eveniet et fugiat qui et perspiciatis.
-          Architecto culpa velit officia.
-        </p>
         <Portfolio />
       </section>
     </div>
