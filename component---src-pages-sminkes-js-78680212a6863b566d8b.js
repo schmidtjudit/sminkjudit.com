@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{237:function(e,a,t){"use strict";t.r(a),t.d(a,"query",function(){return u});var n=t(0),r=t.n(n),l=t(228),o=t(230),c=t(229),u="2782059302";a.default=function(e){var a=e.data.allMarkdownRemark.edges;return r.a.createElement(l.a,null,r.a.createElement(c.a,{title:"Blog"}),r.a.createElement("div",{className:"flex"},a.map(function(e){var a=e.node.frontmatter;return r.a.createElement(o.a,{key:a.path,frontmatter:a})})))}}}]);
+//# sourceMappingURL=component---src-pages-sminkes-js-78680212a6863b566d8b.js.map
