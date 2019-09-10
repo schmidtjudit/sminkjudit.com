@@ -2,8 +2,8 @@
 path: "/eniko-napja-createva-studiojaban"
 date: "2019-01-04"
 title: "Enikő napja CreatEva stúdiójában"
-thumbnail: "images/2019-01-04/1.jpg"
-cover: "images/2019-01-04/1.jpg"
+thumbnail: "images/2019-01-04/Eniko_thumbnail.jpg"
+cover: "images/2019-01-04/Eniko_thumbnail.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---
