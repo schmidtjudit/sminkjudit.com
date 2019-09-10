@@ -1,29 +1,29 @@
 ---
-path: "/abh-subculture-palettaja"
-date: "2017-08-14"
-title: "Anastasia Beverly Hills Subculture palettája"
-thumbnail: "images/2017-08-14/ABH_1.jpg"
-cover: "images/2017-08-14/ABH_1.jpg"
+path: "/jegkiralyno"
+date: "2017-02-27"
+title: "Jégkirálynő"
+thumbnail: "images/2017-02-27/jegkiralyno_1.jpg"
+cover: "images/2017-02-27/jegkiralyno_1.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---
 
-![ABH](images/2017-08-14/ABH_1.jpg)
+![Jegkiralyno](images/2017-02-27/jegkiralyno_1.jpg)
 
-nastasia Beverly Hills új Subculture palettája sok megpróbáltatáson ment keresztül már megjelenése előtt is, majd azt követően sem aratott osztatlan sikert az arra lecsapók körében.
+Az Oscar-díjátadó minden évben inspirál, hogy egy nagyon különleges sminket készítsek magamnak. Ez persze idén sem volt másként. Hamvaimból feltámadva ezzel az über sikkes “jégkirálynő” alkotással térek vissza a világhálóra.
 
-A paletta képeit már tavasszal kiszivárogtatták a márka képviselőinek jóváhagyása nélkül, mely végül Amerikában július 25-én, az Egyesült Királyságban pedig augusztus 2-án debütált.
+Annak a tévhitnek a cáfolására is jó bizonyíték ez a smink, hogy meleg tónusúak nem viselhetnek hideg árnyalatokat. A kék és ezüst szemfestékeket ezúttal korall pirosítóval, a fenti képen barack színű rúzzsal és arany szájfénnyel, az alsó képen babarózsaszín rúzzsal és hasonló árnyalatú szájfénnyel párosítottam.
 
-A kritikák nagy része a festék porlására, illetve foltosságára vonatkozott. Utóbbit egyáltalán nem tapasztaltam, de a porlás valóban fennáll, azonban csökkenthető megfelelő applikációval. Egyik kedvenc YouTube vloggerem, Stephanie Nicole videójában ajánlott módszere nekem is bevállt, miszerint az ecsetet elég egyszer a festékhez érinteni, nem szükséges azt forgatni benne. Így eljárva a paletta sem lett poros, és nem tapasztaltam a festék arcomra hullását sem, de elég termék került az ecsetre a színek megfelelő telítettségű felviteléhez. 
+![Jegkiralyno](images/2017-02-27/jegkiralyno_2.jpg)
 
-A Subculture 14 színéből 11 matt, kettő duokróm (Cube, Electric), és egy metál (Adorn) hatású. Az árnyalatok jól kombinálhatóak egymással, könnyen lehet visszafogott nappali, és drámai esti sminkeket készíteni velük. A mattok véleményem szerint kiváló minőségűek, a metál Adornt nedvesen szeretem használni. A két duokróm szín viszont csalódást okozott, ezek még folyadék (MAC Fix+) segítségével is alulteljesítenek.
+Termékek
 
-Én az augusztus 2-ai megjelenés napján rendeltem meg a palettát a Cult Beauty oldaláról, melyet a Magyar Posta augusztus 8-án kézbesített. A márka termékeit az oldal ebben a hónapban amúgy ingyenesen szállítja.
+Arc: MAC Cosmetics – Strobe krém, Make Up For Ever – Ultra HD Stick alapozó, MAC Cosmetics – Pro Longwear korrektor (NW 15), Ben Nye púder – Neutral Set, Anastasia Beverly Hills (ABH) – Contour Palette (Fawn), MAC Cosmetics – Nutcracker kollekció – Sweet Peach highlighter, MAC Cosmetics – Extra Dimension Skinfinish (Show Gold)
 
-![ABH](images/2017-08-14/ABH_2.jpg)
+Szem: MAC Cosmetics – Paint Pot (Painterly), Make Up For Ever – (Vol.3) Artist Palette (ME230 , I528), Too Faced – Everything Nice Palette (Fawned of You, Shiny Happy), MAC Cosmetics – Extra Dimension Skinfinish (Show Gold), Maybelline Lasting Drama Gel tus, MAC Cosmetics szemceruza – Fascinating, ABH – Brow Definer (Medium Brown), Bobbi Brown szempillaspirál – Smokey Eye, Huda Beauty műszempilla (Farah #12)
 
-Tesztek a kezemen:
+Ajak az első képen: Flormar szájceruza (nr. 201), Bite Beauty – Crème Lip Crayons (Café), Jouer szájfény (Skinny dip)
 
-![ABH](images/2017-08-14/ABH_3.jpg)
+Ajak a második képen: Flormar szájceruza (nr. 201), Gerard Cosmetics rúzs (Buttercup), Sephora szájfény (Queen Bee)
 
-A fentiek ismeretében Ti megvásárolnátok a palettát?
+Milyen sminket szeretnétek következő alkalommal látni? Javaslataitokat a kommentekben várom.
