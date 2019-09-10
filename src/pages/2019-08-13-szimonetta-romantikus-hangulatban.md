@@ -2,8 +2,8 @@
 path: "/szimonetta-romantikus-hangulatban"
 date: "2019-08-13"
 title: "Szimonetta romantikus hangulatban"
-thumbnail: "images/2019-08-13/Szimonetta.jpg"
-cover: "images/2019-08-13/Szimonetta.jpg"
+thumbnail: "images/2019-08-13/Szimonetta_1.jpg"
+cover: "images/2019-08-13/Szimonetta_1.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---
