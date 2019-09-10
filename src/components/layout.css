@@ -635,19 +635,3 @@ pre tt:after {
   -ms-flex-direction: row;
   flex-direction: row;
 }
-.container {
-  position: relative;
-  display: block;
-  padding: 5px;
-  float: left;
-}
-
-@media (min-width:768px) {
-  .container {
-    margin-top: 0;
-    width: auto;
-    margin-left: 235px;
-    max-width: 75%;
-    padding: 30px;
-  }
-}

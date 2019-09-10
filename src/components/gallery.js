@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import Img from "gatsby-image"
 import styled from "styled-components"
@@ -26,14 +26,9 @@ const Thumbnails = styled.div`
   }
 `
 
-export default class Gallery extends Component {
-  static propTypes = {
-    images: PropTypes.array.isRequired,
-  }
-  render() {
-    const { images } = this.props
-
-    return (
+const Gallery = ({ images }) => {
+  return (
+    <>
       <Thumbnails>
         {images.map(image => (
           <Img
@@ -42,6 +37,11 @@ export default class Gallery extends Component {
           />
         ))}
       </Thumbnails>
-    )
-  }
+    </>
+  )
 }
+Gallery.propTypes = {
+  images: PropTypes.array.isRequired,
+}
+
+export default Gallery
