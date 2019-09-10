@@ -34,8 +34,8 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
+          "gatsby-remark-copy-relative-linked-files",
           {
-            "gatsby-remark-copy-relative-linked-files",
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 960,
