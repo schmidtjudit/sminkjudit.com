@@ -2,8 +2,8 @@
 path: "/abh-subculture-palettaja"
 date: "2017-08-14"
 title: "Anastasia Beverly Hills Subculture palettája"
-thumbnail: "images/2017-08-14/ABH_1.jpg"
-cover: "images/2017-08-14/ABH_1.jpg"
+thumbnail: "images/2017-08-14/ABH_thumbnail.jpg"
+cover: "images/2017-08-14/ABH_thumbnail.jpg"
 tags: ["sminkes"]
 excerpt: ""
 ---
