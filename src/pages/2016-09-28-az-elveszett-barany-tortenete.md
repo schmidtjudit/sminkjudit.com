@@ -4,7 +4,7 @@ date: "2016-09-28"
 title: "Az elveszett bárány története"
 thumbnail: "images/2016-09-28/bridal_thumbnail.jpg"
 cover: "images/2016-09-28/bridal_thumbnail.jpg"
-tags: ["sminkes"] ["sikkes"]
+tags: ["sminkes"]
 excerpt: ""
 ---
 
