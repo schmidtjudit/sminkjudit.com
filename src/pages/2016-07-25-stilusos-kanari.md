@@ -1,7 +1,7 @@
 ---
 path: "/stilusos-kanari"
 date: "2016-07-25"
-title: "Stílusos-kanári"
+title: "Stílusos kanári"
 thumbnail: "images/2016-07-25/kanari_thumbnail.jpg"
 cover: "images/2016-07-25/kanari_thumbnail.jpg"
 tags: ["sminkes"]
