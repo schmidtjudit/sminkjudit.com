@@ -2,8 +2,7 @@ name: Deploy Gatsby blog
 
 on:
   push:
-    branches: 
-      - master
+    branches: [master]
 
 jobs:
   build:
@@ -11,9 +10,14 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-      - name: Publish Gatsby Site
-        uses: xmflsct/action-publish-gatsby@v1.0.0
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          name: Github Actions
-          email: gh-pages@example.com
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build
+      - name: Deploy to gh-pages
+        run: gh-pages -d public -u 'Github Actions <gh-pages@example.com>' -r 'https://"$GH_TOKEN"@github.com/"$GITHUB_REPOSITORY".git'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
