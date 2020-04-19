@@ -9,8 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: xmflsct/action-publish-gatsby@v1 
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Publish Gatsby Site
+        uses: xmflsct/action-publish-gatsby@v1.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           name: Github Actions
