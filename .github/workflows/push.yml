@@ -1,21 +1,26 @@
-on: 
-  push:
-    branches:
-      - master
 name: Deploy Gatsby blog
+
+on:
+  push:
+    branches: [ master ]
+
 jobs:
-  gitHubActionForNpm:
-    name: GitHub Action for npm
+  build:
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
     steps:
-    - uses: actions/checkout@master
-    - name: npm install
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
       with:
-        args: install
-    - name: deploy
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm run deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      with:
-        args: run-script deploy
