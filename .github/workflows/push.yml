@@ -23,4 +23,4 @@ jobs:
       - run: npm run build --if-present
       - run: npm run deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
