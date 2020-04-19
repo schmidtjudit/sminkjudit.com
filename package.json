@@ -39,7 +39,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -u 'Github Actions <gh-pages@example.com>'",
+    "deploy": "gh-pages -d public -u 'Github Actions <gh-pages@example.com>'",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
