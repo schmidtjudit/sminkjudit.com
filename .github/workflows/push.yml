@@ -17,7 +17,5 @@ jobs:
       - run: npm ci
       - run: npm run build
       - name: Deploy to gh-pages
-        run: $GITHUB_WORKSPACE/node_modules/.bin/gh-pages -d public -u 'Github Actions <gh-pages@example.com>' -r 'https://"$GH_TOKEN"@github.com/"$GITHUB_REPOSITORY".git'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: $GITHUB_WORKSPACE/node_modules/.bin/gh-pages -d public -u 'Github Actions <gh-pages@example.com>' -r 'https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git'
         
