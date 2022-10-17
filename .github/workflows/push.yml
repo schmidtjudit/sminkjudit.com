@@ -1,21 +1,21 @@
-on: 
-  push:
-    branches:
-      - master
 name: Deploy Gatsby blog
+
+on:
+  push:
+    branches: [master]
+
 jobs:
-  gitHubActionForNpm:
-    name: GitHub Action for npm
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: npm install
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
-      with:
-        args: install
-    - name: deploy
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        args: run-script deploy
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run build
+      - name: Deploy to gh-pages
+        run: $GITHUB_WORKSPACE/node_modules/.bin/gh-pages -d public -u 'Github Actions <gh-pages@example.com>' -r 'https://${{ secrets.deploy_token }}@github.com/${{ github.repository }}.git'
+        
